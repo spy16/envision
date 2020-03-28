@@ -21,7 +21,7 @@ Envision is a Dynamic Systems Simulator (similar to Simulink) written in C#.
     their 8, 16, upto 256 bit variations.
 * Signal sinks to write simulation results to file or to even play it using audio
   output H/W (e.g., speaker) on the host.
-* **IPython** integration to enable writing custom simulation components.
+* **[IronPython](https://ironpython.net/)** integration to enable writing custom simulation components.
   * Envision can load python files at startup and expose python functions as blocks.
   * Also has a `Python` block with syntax highlighting editor which enables writing
     python scripts directly within the model editor.
